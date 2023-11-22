@@ -4,7 +4,7 @@ from vertexai.language_models import ChatModel
 import os
 
 app = Flask(__name__)
-PROJECT_ID = "<YOUR_PROJECT_ID>"  
+PROJECT_ID = "profound-coyote-405005"  
 LOCATION = "us-central1"  
 
 vertexai.init(project=PROJECT_ID, location=LOCATION)
