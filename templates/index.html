@@ -115,7 +115,8 @@
             .then((data) => {
               let content = data.content;
               let resultDiv = document.getElementById("result");
-              resultDiv.innerHTML = content;
+              //resultDiv.innerHTML = content;
+			  resultDiv.innerHTML = '<pre>' + content + '</pre>';
             })
             .catch((error) => {
               console.error("Error fetching PaLM response:", error);
